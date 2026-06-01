@@ -1,0 +1,17 @@
+[package]
+name = "lau-spectral-gap-experiment"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-spectral-gap-experiment"
+description = "Experimental verification: spectral gap = RL convergence rate — testing Opus's Emergent Theorem A"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+rand_distr = "0.4"
+
+[dev-dependencies]
+approx = "0.5"
